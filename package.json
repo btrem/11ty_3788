@@ -1,0 +1,22 @@
+{
+  "name": "11ty_shortcode_test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "11ty shortcode test.",
+  "exports": "./eleventy.config.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btrem/11ty_.git"
+  },
+  "author": "Brian Tremblay",
+  "license": "CC0-1.0 license",
+  "bugs": {
+    "url": "https://github.com/btrem/11ty_/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ title }} :: 11ty shortcode test</title>
+        <meta name="viewport" content="width=device-width">
+        <script src=" https://cdn.jsdelivr.net/npm/prismjs@1.30.0/prism.min.js "></script>
+        <link href=" https://cdn.jsdelivr.net/npm/prismjs@1.30.0/themes/prism.min.css " rel="stylesheet">
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <main>
+
+            {{ content | safe }}
+
+        </main>
+    </body>
+</html>
