@@ -1,0 +1,1 @@
+A demo of issue 11ty/eleventy#3788.
